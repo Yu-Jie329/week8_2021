@@ -1,0 +1,10 @@
+//橢圓形-右上角
+.corner-rounded-pill {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 9px;
+  width: 1.75em;
+  height: 1.45em;
+  font-size: 0.75em;
+  text-align: center;
+}

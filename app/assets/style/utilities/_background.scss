@@ -1,0 +1,12 @@
+.bg-success-opacity {
+  background: $success 0 0;
+}
+
+.background-xl {
+  background: url("../images/banner-header.jpeg") bottom center / cover;
+  height: 582px;
+  @include mobile {
+    background: url("../images/banner-header.jpeg") center center / cover;
+    height: 560px;
+  }
+}

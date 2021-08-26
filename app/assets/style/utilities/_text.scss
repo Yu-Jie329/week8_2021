@@ -1,0 +1,70 @@
+//X軸超過隱藏
+.overflow-x-auto {
+  overflow-x: auto;
+}
+//文字不換行
+.white-space-nowrap {
+  white-space: nowrap;
+}
+
+//fs
+@include media-breakpoint-up(sm) {
+  .fs-sm-1 {
+    font-size: 2.25rem;
+  }
+  .fs-sm-2 {
+    font-size: 2rem;
+  }
+  .fs-sm-3 {
+    font-size: 1.75rem;
+  }
+  .fs-sm-4 {
+    font-size: 1.5rem;
+  }
+  .fs-sm-5 {
+    font-size: 1.25rem;
+  }
+  .fs-sm-6 {
+    font-size: 1rem;
+  }
+}
+@include media-breakpoint-up(md) {
+  .fs-md-1 {
+    font-size: 2.25rem;
+  }
+  .fs-md-2 {
+    font-size: 2rem;
+  }
+  .fs-md-3 {
+    font-size: 1.75rem;
+  }
+  .fs-md-4 {
+    font-size: 1.5rem;
+  }
+  .fs-md-5 {
+    font-size: 1.25rem;
+  }
+  .fs-md-6 {
+    font-size: 1rem;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .fs-lg-1 {
+    font-size: 2.25rem;
+  }
+  .fs-lg-2 {
+    font-size: 2rem;
+  }
+  .fs-lg-3 {
+    font-size: 1.75rem;
+  }
+  .fs-lg-4 {
+    font-size: 1.5rem;
+  }
+  .fs-lg-5 {
+    font-size: 1.25rem;
+  }
+  .fs-lg-6 {
+    font-size: 1rem;
+  }
+}
