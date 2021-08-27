@@ -43,3 +43,44 @@ var swiper = new Swiper(".mySwiper-freemode", {
     clickable: true,
   },
 });
+
+
+var swiper = new Swiper(".mySwiper-slides-grid", {
+  slidesPerView: 3,
+  slidesPerColumn: 2,
+  slidesPerColumnFill : 'row',
+  spaceBetween: 15,
+  breakpoints: { 
+    480: { 
+      slidesPerView: 1,
+      spaceBetween: 15,
+      slidesPerColumn: 3,
+      slidesPerColumnFill : 'column',
+    },
+    //當寬度大於等於640
+    767: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      slidesPerColumn: 3,
+      slidesPerColumnFill : 'column',
+    },
+    992: {
+      slidesPerView: 2,
+      spaceBetween: 15,
+      slidesPerColumn: 2,
+      slidesPerColumnFill : 'row',
+    }
+  },
+  grid: {
+    rows: 3,
+  },
+  pagination: {
+    // el: ".swiper-pagination",
+    clickable: true,
+    type: "fraction",
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
