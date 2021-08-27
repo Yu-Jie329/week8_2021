@@ -26537,6 +26537,19 @@ img {
   }
 }
 
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+}
+
 .overflow-x-auto {
   overflow-x: auto;
 }
@@ -26874,11 +26887,6 @@ img {
 
 .icon-l {
   font-size: 40px;
-}
-
-.swiper-container {
-  width: 100%;
-  height: 100%;
 }
 
 .img-swiper-l {
