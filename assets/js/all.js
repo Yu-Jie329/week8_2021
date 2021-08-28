@@ -43,7 +43,7 @@ var swiper = new Swiper(".mySwiper-slides-grid", {
   slidesPerView: 3,
   slidesPerColumn: 2,
   slidesPerColumnFill: 'row',
-  spaceBetween: 15,
+  spaceBetween: 10,
   breakpoints: {
     480: {
       slidesPerView: 1,
@@ -54,13 +54,13 @@ var swiper = new Swiper(".mySwiper-slides-grid", {
     //當寬度大於等於640
     767: {
       slidesPerView: 1,
-      spaceBetween: 30,
+      spaceBetween: 15,
       slidesPerColumn: 3,
       slidesPerColumnFill: 'column'
     },
     992: {
       slidesPerView: 2,
-      spaceBetween: 15,
+      spaceBetween: 10,
       slidesPerColumn: 2,
       slidesPerColumnFill: 'row'
     }

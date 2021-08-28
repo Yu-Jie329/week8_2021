@@ -26533,6 +26533,10 @@ img {
   overflow-x: hidden;
 }
 
+.swiper-slide-s {
+  height: 120px;
+}
+
 .overflow-x-auto {
   overflow-x: auto;
 }
