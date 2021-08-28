@@ -26537,6 +26537,12 @@ img {
   height: 120px;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 110%;
+}
+
 .overflow-x-auto {
   overflow-x: auto;
 }
