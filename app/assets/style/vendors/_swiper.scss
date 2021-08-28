@@ -15,3 +15,19 @@
 .swiper-slide-s {
   height: 120px;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 110%;
+}
+
+// .swiper-button-prev,
+// .swiper-container-rtl .swiper-button-next {
+// background-image: url();
+// }
+
+// .swiper-button-next,
+// .swiper-container-rtl .swiper-button-prev {
+//   background-image: url();
+// }

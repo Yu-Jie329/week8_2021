@@ -50,6 +50,7 @@ var swiper = new Swiper(".mySwiper-slides-grid", {
   slidesPerColumn: 2,
   slidesPerColumnFill : 'row',
   spaceBetween: 10,
+  clickable: true,
   breakpoints: { 
     480: { 
       slidesPerView: 1,
@@ -76,7 +77,7 @@ var swiper = new Swiper(".mySwiper-slides-grid", {
   },
   pagination: {
     // el: ".swiper-pagination",
-    clickable: true,
+    
     type: "fraction",
   },
   navigation: {
